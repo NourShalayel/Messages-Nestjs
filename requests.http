@@ -1,0 +1,17 @@
+### list all messages 
+
+Get http://localhost:3000/messages
+
+### create new message 
+
+POST http://localhost:3000/messages
+Content-Length: application/json
+
+{
+    "content" : "hi"
+}
+
+
+### get one message 
+
+Get http://localhost:3000/messages/1
